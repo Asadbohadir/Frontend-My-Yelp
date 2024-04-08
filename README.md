@@ -1,47 +1,38 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend My Yelp
+## Welcome to My Yelp
+Demo : https://loquacious-cupcake-3c5257.netlify.app
+Visit the My Yelp Demo to explore the project.
+
+## Task
+Hello, and welcome to My Yelp! I'm delighted that you're exploring my code. This project presented some challenges initially, but with the guidance of my mentors, I was able to organize and complete it.
+
 ## Description
-<img src="https://storage.googleapis.com/qwasar-public/track-web/amplify_reactjs.png" width="80%"/>
-Remember to git add && git commit && git push each exercise!
+My Yelp is a clone of the Yelp website. It provides users with the ability to add their own restaurants and explore listings of other restaurants.
 
-We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
+Installation
+To set up the project on your local machine, follow these steps:
+Clone the repository:
+bash
+Copy code
+Navigate to the project directory:
+bash
+Copy code
+cd yelp
+Install dependencies for both the server and the client:
+bash
+Copy code
+npm install
+## Usage
+Once the installation is complete, you can run the project with the following commands:
 
-For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. Folder names are provided at the beginning of each exercise under submit directory and specific file names for each exercise are also provided at the beginning of each exercise under submit file(s).
+bash
+Copy code
+# Start the server
+npm run server
 
-My Yelp	
-Submit directory	.
-Submit files	my_yelp_url.txt - *.html
-## Description
+# Start the client
+npm start
+This will launch the application locally, and you can access it in your web browser at http://localhost:3000.
+## The Core Team
+This project was created by a solo developer, without a dedicated team. If you have any questions or feedback, feel free to reach out to me.
 
-You've been assigned by your manager to deploy an old application to the `cloud`.
-
-It's an excellent timing since you've just completed your training on AWS.
-A mix of Amplify, lambda and other technology will be perfect for this project.
-
-A little about `Yelp` (source wikipedia):
-
-<img src="https://storage.googleapis.com/qwasar-public/track-web/my_yelp.png" width="30%" style="display: block;"/>
-
-
-Yelp was founded in 2004 by former PayPal employees Russel Simmons and Jeremy Stoppelman. Yelp grew in usage and raised several rounds of funding in the following years. By 2010, it had $30 million in revenue, and the website had published about 4.5 million crowd-sourced reviews. From 2009 to 2012, Yelp expanded throughout Europe and Asia. In 2009, it entered unsuccessful negotiations to be acquired by Google. Yelp became a public company via an initial public offering in March 2012 and became profitable for the first time two years later.
-
-As of December 31, 2020, approximately 206.3 million reviews were available on its business listing pages. In 2020, the company had 43 million unique visitors to its desktop webpages and 52 million unique visitors to its mobile sites. Over fifty percent of the company's audience has annual household income of more than $100,000.
-
-The company has been accused of using unfair practices to raise revenue from the businesses that are reviewed on its site – e.g., by presenting more negative review information for companies that do not purchase its advertising services or by prominently featuring advertisements of the competitors of such non-paying companies or conversely by excluding negative reviews from companies’ overall rating on the basis that the reviews “are not currently recommended." There have also been complaints of aggressive and misleading tactics by some of its advertising sales representatives. The company's review system's reliability has also been affected by the submission of fake reviews by external users, such as false positive reviews submitted by a company to promote its own business or false negative reviews submitted about competing businesses – a practice sometimes known as "astroturfing", which the company has tried to combat in various ways.
-
-## SPECIFICATIONS
-Deploy an application built in ReactJS into Amplify (AWS) using authentification.
-
-We've provided to you the [code](https://storage.googleapis.com/qwasar-public/track-web/my_yield.zip) of an application and we would like it to be hosted in the cloud.
-This application is also using GraphQL, you might have to take a look. :)
-
-You are one hundred percent allowed to edit the source code; your mission is simple: make it work.
-
-## REQUIREMENTS
-A fully hosted version in the cloud. (at least until the correction happened)
-Each of these providers have a free tier. You should be able to host it for 0$. :)
-
-You will write the url in `my_yelp_url.txt`. Nothing more, just the URL.
-
-Your .gitignore must remove node_modules/
+Thank you for checking out My Yelp! I hope you enjoy exploring the restaurants and functionalities provided by this project.
